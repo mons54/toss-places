@@ -1,0 +1,89 @@
+body {
+  background-color: #607D8B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  user-select: none;
+}
+
+.seat {
+  display: flex;
+  justify-content: center;
+}
+
+.seat .icon {
+  font-size: 11vw;
+}
+
+.row:nth-child(1) .col-2:nth-child(1) .seat .icon {
+  color: #F44336;
+}
+.row:nth-child(1) .col-2:nth-child(2) .seat .icon {
+  color: #673AB7;
+}
+.row:nth-child(1) .col-2:nth-child(3) .seat .icon {
+  color: #03A9F4;
+}
+.row:nth-child(1) .col-2:nth-child(4) .seat .icon {
+  color: #FFEB3B;
+}
+.row:nth-child(1) .col-2:nth-child(5) .seat .icon {
+  color: #8BC34A;
+}
+.row:nth-child(1) .col-2:nth-child(6) .seat .icon {
+  color: #FF9800;
+}
+
+.row:nth-child(3) .col-2:nth-child(1) .seat .icon {
+  color: #E91E63;
+}
+.row:nth-child(3) .col-2:nth-child(2) .seat .icon {
+  color: #FFC107;
+}
+.row:nth-child(3) .col-2:nth-child(3) .seat .icon {
+  color: #9E9E9E;
+}
+.row:nth-child(3) .col-2:nth-child(4) .seat .icon {
+  color: #9C27B0;
+}
+.row:nth-child(3) .col-2:nth-child(5) .seat .icon {
+  color: #795548;
+}
+.row:nth-child(3) .col-2:nth-child(6) .seat .icon {
+  color: #00BCD4;
+}
+
+.bottom .seat .icon {
+  transform: rotate(180deg);
+}
+
+.places {
+  display: flex;
+  justify-content: center;
+}
+
+.places .name {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2vw;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 48%;
+}
+
+.places .name-bottom {
+  top: 50%;
+}
+
+.places .icon {
+  font-size: 15vw;
+  margin-left: 0.5vw;
+  margin-top: -1.5vw;
+  margin-bottom: -1.5vw;
+  color: #CFD8DC;
+}
